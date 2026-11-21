@@ -1,25 +1,28 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ffcc&height=250&section=header&text=ForgePilot.ai&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=The%20Autonomous%20Startup%20Engine&descAlignY=55&descAlign=50" width="100%" alt="ForgePilot Banner" />
+<img src="docs/assets/readme/banner.svg" width="100%" alt="ForgePilot.ai — The Autonomous Startup Engine" />
+
+<a href="#-join-the-alpha"><img src="https://img.shields.io/badge/status-alpha-00ffcc?style=flat-square&labelColor=0b0f14" alt="Status: alpha" /></a>
+<img src="https://img.shields.io/badge/repo-pitch_%2B_roadmap_%2B_concept_art-00ffcc?style=flat-square&labelColor=0b0f14" alt="Repo contents: pitch, roadmap and concept art" />
+
+**Build SaaS like a team of ten.** ForgePilot is an autonomous startup engine: AI agents that carry one founder from idea to distribution.
 
 <p align="center">
-  <a href="https://forgepilot.ai">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&lines=Build+SaaS+like+a+team+of+ten.;Powered+by+Autonomous+AI+Agents.;Eliminating+the+solo+founder+bottleneck.;From+Ideation+to+Distribution+on+Autopilot." alt="Typing SVG" />
-  </a>
+<a href="#-the-core-directive">Directive</a> ·
+<a href="#-four-capabilities-one-runtime">Capabilities</a> ·
+<a href="#-specimens-from-the-build-log">Specimens</a> ·
+<a href="#-roadmap-as-of-the-board-snapshot">Roadmap</a> ·
+<a href="#-join-the-alpha">Join the alpha</a>
 </p>
-
-<p align="center">
-  <a href="https://forgepilot.ai"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=Google-Chrome&logoColor=00ffcc" alt="Website" /></a>
-  <a href="https://twitter.com/ForgePilotAI"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=X&logoColor=00ffcc" alt="X/Twitter" /></a>
-  <a href="https://github.com/ForgePilot"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ffcc" alt="GitHub" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Status-Alpha-00ffcc?style=for-the-badge&logoColor=000000" alt="Status" /></a>
-</p>
-
----
 
 </div>
 
-## 💻 `system_architecture/about_us.sh`
+> [!NOTE]
+> This repository is the project's public face: the mission, the planned stack, a snapshot of the roadmap board and concept renders. **It contains no source code**, so there is nothing to install or run here yet. The images below are labeled as either a board screenshot or a concept render.
+
+## <img src="docs/assets/readme/sigil-01.svg" height="28" align="absmiddle" alt=""> The core directive
+
+ForgePilot exists to eliminate the solo founder bottleneck: one person launching ten SaaS products, with the pipeline automated end to end.
 
 ```bash
 forgepilot@core-system:~$ cat mission_statement.txt
@@ -36,88 +39,101 @@ forgepilot@core-system:~$ ./execute_vision.sh
 > Result: The next YC unicorn might be built by 1 person with 10 agents.
 ```
 
-<br>
+<sub>⟁ decoded from the original transmission; a narrative, not a runnable script</sub>
 
-<h2 align="center">⚙️ The Tech Engine</h2>
-<p align="center">Built on battle-tested, modern tools. Optimized for speed, modularity, and automation.</p>
+## <img src="docs/assets/readme/sigil-02.svg" height="28" align="absmiddle" alt=""> Four capabilities, one runtime
 
-<div align="center">
+| | |
+|---|---|
+| **🧠 Autonomous reasoning**<br>Agents built on LangGraph and MemGPT that reason across complex, multi-step dev workflows. | **⚡ Instant shipping**<br>Open-source SaaS kits and cloud infra take ideas to production near-instantly. |
+| **📡 Market signal injection**<br>Real-time demand signals (Reddit, Twitter, IndieHackers) decide what gets built. | **🧩 Modular runtime**<br>Bring your own components, plug into the ForgePilot runtime and deploy in minutes. |
 
-### **Artificial Intelligence & Agents**
-![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=00ffcc)
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=graphql&logoColor=00ffcc)
-![MemGPT](https://img.shields.io/badge/MemGPT-000000?style=for-the-badge&logo=openai&logoColor=00ffcc)
-![Anthropic](https://img.shields.io/badge/Anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=00ffcc)
+**The tech engine.** Built on battle-tested, modern tools, optimized for speed, modularity and automation. This is the stated stack; none of it is checked into this repo.
 
-### **Frontend & Frameworks**
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00ffcc)
-![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=00ffcc)
+| Layer | Tools |
+|---|---|
+| AI and agents | LangChain · LangGraph · MemGPT · Anthropic |
+| Frontend | React · TypeScript |
+| Backend and infrastructure | Supabase · Vercel · OpenAPI |
 
-### **Backend & Infrastructure**
-![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=00ffcc)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=00ffcc)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-000000?style=for-the-badge&logo=swagger&logoColor=00ffcc)
+<p align="center"><img src="docs/assets/readme/divider.svg" width="100%" alt="" /></p>
 
-</div>
+## <img src="docs/assets/readme/sigil-03.svg" height="28" align="absmiddle" alt=""> Specimens from the build log
 
-<br>
-
-<h2 align="center">🌌 Core Capabilities</h2>
-
-<table align="center" width="100%">
+<table>
   <tr>
-    <td width="50%" align="center">
-      <h3>🧠 Autonomous Reasoning</h3>
-      <p>Agents built on LangGraph and MemGPT that reason across complex, multi-step dev workflows.</p>
-    </td>
-    <td width="50%" align="center">
-      <h3>⚡ Instant Shipping</h3>
-      <p>Leveraging open-source SaaS kits and cloud infra to take ideas to production near-instantly.</p>
+    <td colspan="2" align="center">
+      <img src="docs/assets/readme/specimen-01-roadmap.png" alt="Screenshot of the ForgePilot AI project board with Vision &amp; Strategy, In Progress, Completed and Coming Soon columns" />
+      <br><sub>◬ 01 · The ForgePilot AI project board: vision, work in progress, completed items and what's next.</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <h3>📡 Market Signal Injection</h3>
-      <p>Tapping into real-time demand signals (Reddit, Twitter, IndieHackers) to build what people want.</p>
+      <img src="docs/assets/readme/specimen-02-agent-flow.png" alt="Concept render of the Agent Flow Builder: Data Input, Analyze Signal, Validate Idea, Generate App and Deploy App nodes" />
+      <br><sub>◬ 02 · Agent Flow Builder concept: Data Input → Analyze Signal → Validate Idea / Generate App → Deploy App.</sub>
     </td>
     <td width="50%" align="center">
-      <h3>🧩 Modular Runtime</h3>
-      <p>Bring your own components. Plug into the ForgePilot runtime and deploy in minutes.</p>
+      <img src="docs/assets/readme/specimen-03-market-signal.png" alt="Concept render of the Market Signal Dashboard with a market trend chart and a Market Trends list" />
+      <br><sub>◬ 03 · Market Signal Dashboard concept: pick a target market and time range, get a trend chart and AI insights.</sub>
     </td>
   </tr>
 </table>
 
-<br>
+<sub>⟁ Specimen 01 is a screenshot of the project board. Specimens 02 and 03 are concept renders: their data and labels are illustrative, and no build of these screens ships in this repo. Originals are in <a href="assets/">assets/</a>.</sub>
 
-<h2 align="center">📊 System Telemetry</h2>
+## <img src="docs/assets/readme/sigil-04.svg" height="28" align="absmiddle" alt=""> Roadmap, as of the board snapshot
+
+Transcribed from [`assets/roadmap.png`](assets/roadmap.png). ✓ marks a card checked off on the board.
+
+| Vision & strategy | In progress | Completed | Coming soon / next up |
+|---|---|---|---|
+| ✓ Product mission & YC vision | Agent-driven MVP flow (Reddit → Idea → App Builder) | MVP architecture design | App preview thumbnails for SaaS outputs |
+| ✓ Why autonomous SaaS now? | ✓ Market signal parsing (Reddit, Trends, HN) | LangGraph prototype for agent orchestration | Customization controls for agents |
+| ✓ Competitive edge (vs GPT site builders, Devin, etc.) | ✓ App scaffold + code writer logic | ✓ Basic UI shell built in React.js | API to list/autosell MVPs on product sites |
+| ✓ Target users & use cases | Hosting + Supabase deployment | ✓ Custom GPT prompt templates tested | SaaS type selector: form, chat, dashboard, etc. |
+| | Stripe integration + billing | | Auto-feedback agent loop (evaluate market fit) |
+
+<p align="center"><img src="docs/assets/readme/divider.svg" width="100%" alt="" /></p>
+
+## <img src="docs/assets/readme/sigil-05.svg" height="28" align="absmiddle" alt=""> Join the alpha
+
+ForgePilot is in **alpha**: actively building, experimenting and testing new workflows with real users. We're looking for **builders, researchers and founders** who want to push the limits of autonomous startup creation.
+
+- **Open an issue:** [github.com/builde7b0b/ForgePilotAI/issues](https://github.com/builde7b0b/ForgePilotAI/issues)
+- **Website:** [forgepilot.ai](https://forgepilot.ai)
+- **X:** [@ForgePilotAI](https://twitter.com/ForgePilotAI)
+- **GitHub:** [github.com/ForgePilot](https://github.com/ForgePilot)
+- **Waitlist:** announced, but no sign-up link is published yet.
+
+> [!WARNING]
+> When this README was written, forgepilot.ai did not respond and the X profile link returned 404 to an unauthenticated check. The waitlist button in the previous README pointed nowhere (`#`).
+
+<details>
+<summary><b>What's in this repo</b></summary>
+
+| Path | What it is |
+|---|---|
+| `README.md` | This document |
+| [`assets/roadmap.png`](assets/roadmap.png) | Project board screenshot (source of specimen 01 and the roadmap table) |
+| [`assets/agent-flow.png`](assets/agent-flow.png) | Agent Flow Builder concept render |
+| [`assets/market-signal.png`](assets/market-signal.png) | Market Signal Dashboard concept render |
+| [`assets/founder-vid.mp4`](assets/founder-vid.mp4) | Founder video, about 68 s, vertical 1080×1920 (8 MB) |
+| `docs/assets/readme/` | Banner, sigils, divider and framed specimens for this README |
+
+</details>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ForgePilot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00ffcc&icon_color=00ffcc" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ForgePilot&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00ffcc&text_color=ffffff" alt="Top Languages" width="48%" />
-</div>
 
-<br>
+### ⚡ Build philosophy
 
-<h2 align="center">🤝 Initialize Collaboration</h2>
-<p align="center">
-  We are currently in <b>ALPHA</b>. Actively building, experimenting, and testing new workflows with real users.<br>
-  We're looking for <b>builders, researchers, and founders</b> who want to push the limits of autonomous startup creation.
-</p>
+> *"AI agents that build SaaS companies → more founders winning → more shots on goal → more YC-worthy startups."*
+>
+> **— The ForgePilot Manifesto**
 
-<div align="center">
-  
-  [![Open an Issue](https://img.shields.io/badge/Open_an_Issue-000000?style=for-the-badge&logo=github&logoColor=00ffcc)](#)
-  [![Join the Waitlist](https://img.shields.io/badge/Join_Waitlist-000000?style=for-the-badge&logo=minutemailer&logoColor=00ffcc)](#)
-  
-</div>
+<sub>System telemetry for github.com/ForgePilot</sub><br>
+<img src="https://github-readme-stats.vercel.app/api?username=ForgePilot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00ffcc&icon_color=00ffcc" alt="GitHub stats for ForgePilot" width="40%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ForgePilot&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=00ffcc&text_color=ffffff" alt="Top languages for ForgePilot" width="40%" />
 
-<br>
+<sub>⟁ end of transmission · builde7b0b</sub>
 
----
-
-<div align="center">
-  <h3>⚡ BUILD PHILOSOPHY ⚡</h3>
-  <blockquote>
-    <i>"AI agents that build SaaS companies → more founders winning → more shots on goal → more YC-worthy startups."</i>
-  </blockquote>
-  <p><b>— The ForgePilot Manifesto</b></p>
 </div>
